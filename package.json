@@ -4,7 +4,7 @@
   "description": "Github action for Azure Key Vault Operations",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --newLine crlf",
     "prepare": "npx -q --no-install giismudge .*ignore",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
